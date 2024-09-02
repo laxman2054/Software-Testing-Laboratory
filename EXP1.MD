@@ -113,6 +113,10 @@ iterate()
 
 ### Output:
 
+### i.)do…while: 
+
+
+
 
 
 
