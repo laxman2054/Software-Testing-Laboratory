@@ -15,6 +15,8 @@ Cases
 5. Stop the program.
 ### Program:
 
+### i.)do…while: 
+
 ```
 def display():
      start=input("Enter a positive value for START: ")
@@ -32,6 +34,72 @@ def display():
         print("Enter a valid positive number.") 
   display() 
 ```
+
+### ii.) while…do 
+
+```
+start=input("Enter a positive value for START: ") 
+end=input("Enter a positive value for END: ")
+if start.isnumeric() and end.isnumeric():
+     start=int(start)
+     end=int(end)
+     while start<end:
+          print(start)
+          start+=1
+else:
+   print("Enter a valid positive number.")
+
+```
+
+### iii.) switch 
+
+```
+def switch():
+    switcher={
+ 0:"even",
+  1:"odd"
+}
+n=input('Enter a value for N: ') try:
+  n=int(n)
+  print(switcher[n%2])
+except ValueError:
+   print("Enter a valid number.")
+switch() 
+
+```
+
+### iv.) if else
+
+```
+def compare():
+  a=input("Enter a value for A: ")
+  b=input("Enter a value for B: ")
+  try:
+     a=int(a)
+     b=int(b)
+     if a>b:
+        print("A is greater than")
+     elif a<b:
+        print("B is greater than")
+     else:
+        print("A is equal to B")
+  except ValueError:
+        print(“Enter a valid number.”) 
+
+```
+
+### v.) for
+
+```
+def iterate():
+    string=input("Enter a string: ") for
+    i in string:
+       print(ord(i),end=" ")
+iterate() 
+```
+
+
+
 
 
 
