@@ -114,8 +114,12 @@ iterate()
 ### Output:
 
 ### i.)do…while: 
-
-
+```
+Positive numbers
+Enter a positive value for START: 1
+Enter a positive value for END: 4
+1 2 3 4 
+```
 
 
 ### ii.) while…do 
