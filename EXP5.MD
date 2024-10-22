@@ -88,6 +88,6 @@ Test Case: Fail
 
 
 ```
-##Result:  
+## Result:  
 Thus, the python program of binary search is implemented and the output is verified
 successfully. 
