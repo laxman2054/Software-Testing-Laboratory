@@ -60,3 +60,34 @@ except ValueError:  # Catching specific exception for invalid integer conversion
 
 ## Output: 
 
+```
+Enter the element to be searched:
+Enter a valid input!
+ Test Case: Fail
+
+Enter the element to be searched: 20
+Enter a valid input!
+Test Case: Pass
+
+Enter the element to be searched: 3 4
+Enter a valid input!
+Test Case: Fail
+
+Enter the element to be searched: 0.8
+Enter a valid input!
+Test Case: Fail
+
+Enter the element to be searched: @123
+Enter a valid input!
+Test Case: Fail
+
+Enter the element to be searched: -10 20
+Enter a valid input!
+Test Case: Fail
+
+
+
+```
+##Result:  
+Thus, the python program of binary search is implemented and the output is verified
+successfully. 
