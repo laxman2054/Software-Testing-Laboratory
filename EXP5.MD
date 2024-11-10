@@ -1,6 +1,6 @@
 ## Ex.No: 5 BINARY SEARCH (check whether the Binary Search and inspect for failures).
 
-## DATE: 24-09-2024
+## DATE: 10-09-2024
 
 ## REGISTER NUMBER : 212222040006
 
